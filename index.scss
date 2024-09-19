@@ -31,7 +31,33 @@ img {
 
 //variables
 
+$primary: #326dee;
+$secondary: #1ac886;
+$error: #d32752;
+$info: #f6c31c;
 
+h1 {
+  color: $primary;
+}
 
+a {
+  color: $secondary;
+}
 
+button {
+  color: white;
+  border: 0;
+  background: $primary;
+}
 
+.error {
+  color: $error;
+  border-color: $error;
+  border-style: solid; 
+}
+
+.notification {
+  color: $secondary;
+  border-color: $secondary;
+  border-style: solid;
+}
